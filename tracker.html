@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tracker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Jersey+15+Charted&display=swap" rel="stylesheet">
+    
+    <title>Inventory Tracker</title>
+</head>
+<body>
+    <header id="head">
+        <h2>INVENTORY TRACKER</h2>
+    </header>
+<div id="inputs">
+    <input type="text" id="name" placeholder="Product name">
+    <input type="text" id="quantity" placeholder="Quantity">
+    <input type="text" id="description" placeholder="Description">
+    <input type="number" id="price" placeholder="Price">
+    <input type="text" id="supplier-info" placeholder="Supplier Information">
+    <input type="text" id="category" placeholder="Category">
+    <button id="addBtn">Add Product</button>
+</div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>PRODUCT NAME</th>
+                <th>QUANTITY</th>
+                <th>DESCRIPTION</th>
+                <th>PRICE</th>
+                <th>SUPPLIER INFORMATION</th>
+                <th>CATEGORY</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            
+        </tbody>
+    </table>
+
+
+    <script src="tracker.js"></script>
+</body>
+</html>
